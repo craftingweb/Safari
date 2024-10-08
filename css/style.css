@@ -105,3 +105,25 @@ li {
   margin-bottom: 15px;
   cursor: pointer;
 }
+
+.direction {
+  padding: 100px 0;
+}
+
+.direction__inner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+}
+
+.direction__img {
+  display: block;
+}
+
+.direction__text {
+  font-size: 16px;
+  border: 1px solid #d9d9de;
+  border-top: none;
+  padding: 12px 19px 19px;
+  width: 256px;
+}
