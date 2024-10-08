@@ -22,6 +22,13 @@ li {
   list-style: none;
 }
 
+.title {
+  text-align: center;
+  font-size: 36px;
+  line-height: 130%;
+  font-weight: 500;
+}
+
 .container {
   max-width: 1220px;
   padding: 0 10px;
@@ -126,4 +133,108 @@ li {
   border-top: none;
   padding: 12px 19px 19px;
   width: 256px;
+}
+
+.travel-info {
+  padding: 32px 0 75px;
+}
+
+.travel-info {
+  background-image: url("/images/travel-info-bg.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.travel-info__title {
+  margin-bottom: 50px;
+}
+
+.travel-info__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 55px 70px;
+}
+
+.popular {
+  padding: 100px 0;
+}
+
+.popular__title {
+  margin-bottom: 40px;
+}
+
+.popular__items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 32px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #d9d9de;
+}
+
+.popular__link {
+  padding: 16px 24px 19px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 256px;
+  line-height: 130%;
+}
+
+.popular__link:nth-child(3),
+.popular__link:nth-child(6) {
+  display: grid;
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.popular__link-1 {
+  background-image: url("/images/popular-1.jpg");
+}
+.popular__link-2 {
+  background-image: url("/images/popular-2.jpg");
+}
+.popular__link-3 {
+  background-image: url("/images/popular-3.jpg");
+}
+.popular__link-4 {
+  background-image: url("/images/popular-4.jpg");
+}
+.popular__link-5 {
+  background-image: url("/images/popular-5.jpg");
+}
+.popular__link-6 {
+  background-image: url("/images/popular-6.jpg");
+}
+.popular__link-7 {
+  background-image: url("/images/popular-7.jpg");
+}
+.popular__link-8 {
+  background-image: url("/images/popular-8.jpg");
+}
+.popular__link-9 {
+  background-image: url("/images/popular-9.jpg");
+}
+.popular__link-10 {
+  background-image: url("/images/popular-10.jpg");
+}
+
+.popular__link-tittle {
+  font-weight: 500;
+}
+
+.popular__link-tittle--big {
+  font-size: 24px;
+}
+
+.popular__price {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: auto;
 }
