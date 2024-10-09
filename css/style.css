@@ -231,10 +231,56 @@ li {
 
 .popular__link-tittle--big {
   font-size: 24px;
+  line-height: 130%;
 }
 
 .popular__price {
   font-weight: bold;
   font-size: 16px;
   margin-top: auto;
+}
+
+.map {
+  padding-bottom: 100px;
+}
+
+.map__title {
+  margin-bottom: 46px;
+}
+
+.about {
+  padding-bottom: 100px;
+}
+
+.about__inner {
+  display: grid;
+  grid-template-columns: 448px 640px;
+  gap: 112px;
+}
+
+.about__title {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.about__text {
+  margin-bottom: 30px;
+  line-height: 1.7;
+}
+
+.about__link {
+  color: #c4c4c4;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: underline;
+}
+
+.about__popup {
+  background-image: url("/images/video-bg.jpg");
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
