@@ -8,4 +8,8 @@ $(function () {
 
     fixedContentPos: false,
   });
+  $(".gallery__slider").slick({
+    prevArrow: '<img class="prev-arrow" src="images/arrow-left.svg" alt="">',
+    nextArrow: '<img class="next-arrow" src="images/arrow-right.svg" alt="">',
+  });
 });
