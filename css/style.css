@@ -303,6 +303,7 @@ li {
   text-decoration: underline;
   font-size: 16px;
   line-height: 19px;
+  font-weight: 300;
 }
 
 .gallery__item-inner {
@@ -313,9 +314,8 @@ li {
 
 .slick-arrow {
   position: absolute;
-  top: 0;
+  top: -85px;
   right: 0;
-  margin-top: -85px;
   padding-right: 20px;
   cursor: pointer;
 }
@@ -325,5 +325,46 @@ li {
   margin-right: 60px;
 }
 
-.next-arrow {
+.premium {
+  padding: 100px 0;
+}
+
+.premium__title {
+  margin-bottom: 75px;
+}
+
+.premium__text {
+  max-width: 540px;
+}
+
+.premium__box {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #c4c4c4;
+  column-count: 2;
+}
+
+.premium__text + .premium__text {
+  margin-top: 20px;
+}
+
+.tour__info {
+  padding: 44px 0 100px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.tour__info-item {
+  color: #886239;
+  font-family: "PT Serif";
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: center;
+}
+
+.tour__info-text {
+  color: #1f1e1e;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
 }
