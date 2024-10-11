@@ -348,7 +348,7 @@ li {
 }
 
 .tour__info {
-  padding: 44px 0 100px;
+  padding-top: 44px;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
 }
@@ -367,4 +367,83 @@ li {
   font-size: 20px;
   font-weight: 500;
   line-height: 130%;
+}
+
+.booking {
+  padding: 75px 0;
+  background-color: #eaeaea;
+}
+
+.booking__title {
+  margin-bottom: 45px;
+}
+
+.booking__form {
+  max-width: 832px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.booking__input {
+  background-color: white;
+  width: 256px;
+  border: 1px solid #c4c4c4;
+  padding: 12px 14px;
+  margin-bottom: 30px;
+}
+
+.booking__input::placeholder {
+  color: #c4c4c4;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid #c4c4c4;
+  padding: 14px;
+  margin-bottom: 70px;
+  resize: none;
+}
+
+.textarea::placeholder {
+  color: #c4c4c4;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+}
+
+.booking__btn {
+  background-color: #886239;
+  padding: 12px 65px;
+  border: none;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.booking__label {
+  color: #1f1e1e;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%; /* 20.8px */
+  text-decoration-line: underline;
+  margin-left: 20px;
+}
+
+.checkbox {
+  width: 26px;
+  height: 26px;
+  margin-right: 20px;
+  border: 1px solid #c4c4c4;
 }
