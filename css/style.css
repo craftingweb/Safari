@@ -473,3 +473,29 @@ li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.footer {
+  padding: 80px 0;
+  background-color: #1f1e1e;
+  color: white;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.footer__box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer__info-text:nth-child(0) {
+  text-decoration: underline;
+}
+
+.footer__contacts-phone,
+.footer__contacts-email {
+  display: block;
+}
