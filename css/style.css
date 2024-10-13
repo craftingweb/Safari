@@ -509,6 +509,15 @@ li {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .about__inner {
+    display: block;
+  }
+  .about__popup {
+    height: 400px;
+  }
+  .about__content {
+    margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -630,5 +639,17 @@ li {
     gap: 15px;
     padding-bottom: 80px;
     border-bottom: 1px solid #d9d9de;
+  }
+  .map__iframe {
+    height: 400px;
+  }
+  .map {
+    padding-bottom: 50px;
+  }
+  .popular {
+    padding: 50px 0;
+  }
+  .about {
+    padding-bottom: 50px;
   }
 }
